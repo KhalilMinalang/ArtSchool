@@ -1,0 +1,18 @@
+.container {
+    width: 1000px;
+    position: relative;
+    margin: 0px auto;
+    padding: 0;
+}
+
+.container:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.container .adjust-1 { float: left; display: inline; }
+
+.container .adjust-1 { width: 33.33%; }

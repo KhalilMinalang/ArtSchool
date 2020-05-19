@@ -1,0 +1,209 @@
+@font-face { /* Added by your truely */
+    font-family: 'cabin sketch';
+    src: url('CabinSketch-Bold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font: 14px/22px georgia; /* 14px line-height/22px font-size */
+    color: #838180;
+    background: #000;
+}
+
+main {
+    width: 100%;
+    background: url(../images/bg.jpg) center 0 no-repeat;
+}
+
+header {
+    margin: 0px auto;
+    z-index: 5;
+    background: url(../images/header.jpg) right 0 no-repeat;
+}
+
+h1 {
+    margin: 27px 0 0 63px;
+    display: inline-block;
+    z-index: 4;
+}
+
+nav {
+    z-index: 4;
+    background: url(../images/slider-bg.png) 0 0 no-repeat;
+    margin: 17px 0 0 0;
+    height: 571px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.slide { /* we wrote .slider-bg instead!! -_-' */
+    position: relative;
+    overflow: hidden;
+    width: 920px;
+    padding: 44px 40px 0 40px;
+    z-index: 2;
+}
+
+.slider {
+    width: 920px;
+    height: 429px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.prev {
+    position: absolute;
+    top: 242px;
+    left: 49px;
+    display: block;
+    width: 61px;
+    height: 70px;
+    background: url(../images/prev.png) 0 0 no-repeat;
+    z-index: 3;
+}
+
+.prev:hover { background-position: 0 bottom; }
+
+.next {
+    position: absolute;
+    top: 242px;
+    right: 49px;
+    display: block;
+    width: 61px;
+    height: 70px;
+    background: url(../images/next.png) 0 bottom no-repeat;
+    z-index: 3;
+}
+
+.next:hover { background-position: 0 0; }
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.menu {
+    margin: 10px 0 0 83px;
+    display: inline-block;
+}
+
+ul.menu li {
+    float: left;
+    line-height: 50px;
+    margin: 0 35px 0 0;
+}
+
+ul.menu li a {
+    font-size: 40px; /* change back to 40px once you have the font */
+    line-height: 50px;
+    font-family: 'cabin sketch', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -2px;
+    display: block;
+}
+
+ul.menu li a:hover, ul.menu li.current, ul.menu li a:visited /* last selector added by your truely */ {
+    color: #000;
+}
+
+.content-bg {
+    margin: 0 auto;
+    background: url(../images/content-img.png) 1px bottom no-repeat;
+}
+
+.art {
+    background: url(../images/art.png) 0 0 no-repeat;
+    width: 320px;
+    height: 159px;
+    margin: 0 0 0 -30px;
+}
+
+.block {
+    background: #f2f2f2;
+    padding: 18px 30px 0 30px;
+}
+
+
+
+
+
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+
+.clr-1 { color: #0072ff;}
+.clr-2 { color: #00ae35;}
+.clr-3 { color: #bfaf00;}
+.clr-4 { color: #b30800;}
+.clr-5 { color: #a400b3;}
+.clr-6 { color: #000; }
+
+.top-1 { margin-top: 44px; }
+.top-2 { margin-top: 13px; }
+.top-3 { margin-top: 12px; }
+
+.p2 { padding-bottom: 6px; }
+.p3 { padding-bottom: 7px; }
+.p4 { padding-bottom: 13px; }
+
+.pad-1 { padding: 10px 0px 44px 30px;}
+
+.text-1 { font-size: 18px; line-height: 25px; color: #fff; font-style: italic; }
+
+h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'cabin sketch';
+    color: #fff;
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+.link {
+    color: #dd0a00;
+}
+
+.link:hover { text-decoration: underline; }
+
+.link-1 {
+    font-size: 30px;
+    line-height: 36px;
+    color: #dd0a00;
+    font-weight: bold;
+    font-family: 'cabin sketch';
+    letter-spacing: -1px;
+    display: inline-block;
+}
+
+.link-1:hover { color: #fff; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
